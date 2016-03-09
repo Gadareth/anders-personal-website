@@ -1,1 +1,129 @@
-/* All style should go in this document. */
+*{box-sizing: order-box}
+
+body {
+	background-color: white;
+	font-family: Impact, Charcoal, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.red {
+	color: #267423;
+}
+
+.container1 {
+	background-color: black;
+	width: 100%;
+	display: inline-block;
+	padding: 25px 0;
+}
+
+.nav {
+	color: white;
+	text-align: right;
+	padding-right: 16px;
+}
+
+.container2 {
+	width: 100%;
+	padding: 100px 0;
+	background-image: url("sample-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+}
+
+.header {
+	color: white;
+	padding-left: 60%;
+}
+
+.section {
+	width: 70%;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	padding: 16px 0;
+}
+
+.split-section{
+	width: 100%;
+	margin: auto;
+}
+
+.left-heading {
+	float: left;
+	width: 15%;
+	height: 100%;
+	text-align: Left;
+	margin-right: 30px;
+	padding-top: 0;
+}
+
+.section-body-full{
+	padding-top: 5px;
+	display: inline-block;
+	width: 80%;
+	height: 100%;
+	text-align: left;
+}
+
+.section-body-small{
+	display: inline-block;
+	width: 68%;
+	text-align: left;
+	padding-top: 6px;
+}
+
+.right-info {
+	width: 10%;
+	float: right;
+	text-align: left;
+	margin-right: 30px;
+}
+
+.full-half {
+	padding-top: 1px;
+	list-style-position: outside;
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+}
+
+.footer {
+
+}
+
+#intro {
+	width: 100%;
+	background-color: grey;
+	color: white;
+	display: inline-block;
+	height: 200px;
+}
+
+#resume {
+	width: 100%;
+	background-color: white;
+	display: inline-block;
+}
+
+#portfolio {
+	width: 100%;
+	background-color: #267423;
+	color: white;
+	display: inline-block;
+	height: 200px;
+}
+
+#contact-info {
+	width: 100%;
+	background-color: grey;
+	color: white;
+	display: inline-block;
+}
+
+#footer{
+	color: white;
+	text-align: center;
+}
