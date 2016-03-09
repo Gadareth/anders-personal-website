@@ -1,21 +1,25 @@
 *{box-sizing: order-box}
 
 body {
-	background-color: white;
-	font-family: Impact, Charcoal, sans-serif;
+	background-image: url("sample-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	font-family: "Courier New", Courier, monospace;
 	padding: 0;
 	margin: 0;
 }
 
 .red {
-	color: #267423;
+	color: #124910;
 }
 
 .container1 {
+	position: fixed;
 	background-color: black;
 	width: 100%;
 	display: inline-block;
-	padding: 25px 0;
+	padding: 15px 0;
 }
 
 .nav {
@@ -23,19 +27,30 @@ body {
 	text-align: right;
 	padding-right: 16px;
 }
+a:link.nav-link, a:visited.nav-link {
+	color: white;
+	text-decoration: none;
+	border-bottom: dotted 1px #909090;
+}
+
+a:hover.nav-link {
+	color: #124910;
+	text-decoration: none;
+	border-bottom: dotted 1px #909090;
+
+}
 
 .container2 {
 	width: 100%;
-	padding: 100px 0;
-	background-image: url("sample-background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
+	padding-bottom: 200px;
+	padding-top: 100px;
 	display: inline-block;
 }
 
 .header {
 	color: white;
 	padding-left: 60%;
+	line-height: 0;
 }
 
 .section {
@@ -90,8 +105,22 @@ body {
 	height: 100%;
 }
 
-.footer {
+a:link.contact-link, a:visited.contact-link  {
+	color: #909090;
+	text-decoration: none;
+	border-bottom: dotted 1px #909090;
+}
 
+a:hover.contact-link {
+	color: white;
+	border-bottom: dotted 1px white;
+}
+
+.container3 {
+	background-color: black;
+	width: 100%;
+	display: inline-block;
+	padding: 15px 0;
 }
 
 #intro {
@@ -110,7 +139,7 @@ body {
 
 #portfolio {
 	width: 100%;
-	background-color: #267423;
+	background-color: grey;
 	color: white;
 	display: inline-block;
 	height: 200px;
@@ -118,7 +147,7 @@ body {
 
 #contact-info {
 	width: 100%;
-	background-color: grey;
+	background-color: #333333;
 	color: white;
 	display: inline-block;
 }
